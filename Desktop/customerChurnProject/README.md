@@ -14,35 +14,6 @@ Roughly 7,000 rows and 21 columns.
 Target variable: Churn (Yes/No).
 The data is somewhat messy and imbalanced, which became an important part of the project.
 
-Project Structure:
-
-customerChurnProject/
-│
-├── data/
-│   └── churn.csv
-│
-├── models/
-│   ├── feature_columns.pkl
-│   ├── final_gbm_model.pkl
-│   └── scaler.pkl
-│
-├── src/
-│   ├── eda.py
-│   ├── predict.py
-│   ├── preprocess.py
-│   ├── saveFinalModel.py
-│   ├── testLoad.py
-│   ├── trainBaseline.py
-│   ├── trainLogisticScaled.py
-│   ├── trainModels.py
-│   ├── trainModelsBalanced.py
-│   ├── trainModelsSmote.py
-│   ├── trainTestSplitAndEncode.py
-│   ├── tuneGradientBoosting.py
-│   └── tuneRandomForest.py
-│
-└── readme.md
-
 What I Did (Step by Step)
 1. Exploratory Data Analysis
 -Before touching machine learning, I spent time understanding the dataset:
